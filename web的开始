@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <strong>开始学习</strong>
+
+</body>
+</html>
+——————————————————————————————————————————————————————————————————————————————
+control+s 保存代码
+control+/ 当前行进行注释和取消注释
+F5开始调试
