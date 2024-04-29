@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="C:\Users\Lenovo\Pictures\Saved Pictures\11.jpg">
+    <img src="https://nlp-eb.cdn.bcebos.com/static/eb/asset/logo.8a6b508d.png">
+
+    <img src="https://www.zcst.edu.cn/_upload/article/videos/55/c8/289a5bd04545ac10d97e65e5b3b2/6368aaa0-88e2-49f9-9599-c5c1590a8e0f.mp4">
+    <a href="https://www.zcst.edu.cn/"target="_blank">我爱学习</a>
+
+    <audio src="E:\syp\w.mp4"controls loop></audio>
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------
+target=" " 跳转页面 <a href=""></a>文字链接化
+target="_blank" 在新窗口打开页面
+音频标签
+audio src=""></audio audio音频
+controls 显示音频控制板板
+loop 循环播放
+autoplay
+视频标签
+video src
+controls 显示视频属性面板
+loop 循环播放视频
+autoplay 自动播放
+muted 静音播放 视频若想自动播放必须要有muted才行
