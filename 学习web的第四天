@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>总分</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>88</td>
+            <td rowspan="2">88</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>99</td>
+            <!-- <td>88</td> -->
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>总分</td>
+            <td colspan="3">第一</td>
+            <!-- <td>第二</td>
+            <td>第三</td> -->
+        </tr>
+    </table>
+
+    <body>
+   文本框： <input type="text" >
+   <br>
+   <br>
+   密码框：<input type="password">
+   <br>
+   <br>
+   单选框：<input type="radio">
+   <br>
+   <br>
+   多选框：<input type="checkbox">
+   <br>
+   <br>
+   上传文件：<input type="file">
+
+   文本框：<input type="text" placeholder="请输入用户名">
+<br>
+<br>
+密码框：<input type="
+password" placeholder="请输入密码" name="" id="">
+性别：<input type="radio" name="w" checked>男
+<input type="radio" name="w">女
+
+上传文件：<input type="file" multiple>
+br
+br
+兴趣爱好：
+<input type="checkbox">篮球
+<input type="checkbox" checked>游戏
+<input type="checkbox" checked>唱跳
+<br>
+<br>
+城市：
+<select >
+    <option value="">北京</option>
+    <option value="">深圳</option>
+    <option value="" selected>广州</option>
+
+    性别：
+   <input type="radio" name="we" id="man">
+   <label for="man">男</label>
+   <label ><input type="radio" name="we">女</label>
+</body>
+</body>
+</html>
+
+-------------------------------------------------------------
+合并单元格
+跨行合并
+rowspan
+跨列合并
+colspan
+格式 ：<td rowspan="1">
+
+表单
+<input type="">
+type属性值
+text 文本框 password 密码框
+radio 单选框 checkbox 多选框
+file 上传文
+input的占位文本
+<input type=""placeholder="提示信息">
+
+单选框扩展radio
+name 属性保持同一种
+格式：<input="radio" name="1">男
+checked 默认选项
+
+file 上传文件扩展
+multiple为多选文件标签
+
+多选框的默认选项
+checkbox 表示多选标签
+checked 表示默认标签
+
+下拉菜单
+select嵌套option
+selected默认选项
+
+文本域标签
+textarea
+
+lable标签
+增大点击范围
+第一种方式
+<input type="radio" id="name">
+<lable for="man">nan</lable>
+第二种方式
+<lable><input type="radio">女</lable>
+
+按钮-button
