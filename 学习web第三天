@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>条目1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ol>
+        <li>
+            步骤1
+        </li>
+        <li>步骤2</li>
+        <li>步骤3</li>
+        
+    </ol>
+    <dl>
+        <dt>服务中心</dt>
+        <dd>申请售后</dd>
+        <dd>售后政策</dd>
+        
+    </dl>
+    <table border="1">
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>总分</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>88</td>
+            <td>88</td>
+            <td>99</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>99</td>
+            <td>88</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>总分</td>
+            <td>第一</td>
+            <td>第二</td>
+            <td>第三</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+-------------------------------------------------------------------------
+无序列表标签
+ul嵌套li
+ul标签里只能li，而li可以用其他的标签
+
+有序列表标签
+ol嵌套li
+出来ol与ul不同其他情况相同
+
+定义列表
+多数情况下用在末尾的
+dl嵌套dt和dd
+dl里面只能放dt和dd，而dt和dd可以放其他标签
+
+表格标签
+table嵌套tr，tr嵌套td/th
+border属性才能给出表格线
