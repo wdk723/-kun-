@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        体验CSS
+    </p>
+</body>
+</html>
+
+
+——————————————————————————————————————————————————————————————————————————
+CSS书写规则 选择器{属性名：属性值；}
+卸载tilt下面
+<style>
+是CSS标签
