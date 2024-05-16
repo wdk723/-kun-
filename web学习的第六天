@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rad {
+            color: red;
+            font-size: 30px;
+        }
+
+*{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p id="rad">
+        体验CSS
+    </p>
+------------------------------------------------------
+
+ .red{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+       }
+       .orange{
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+       }
+    </style>
+</head>
+<body>
+    <p class="red">
+        体验CSS
+    </p>
+    <h1 class="orange">卡怪</h1>
+    <div>
+        灌灌灌灌
+    </div>
+----------------------------------------
+<style>
+       p{
+        font-size: 30px;
+       }
+    </style>
+</head>
+<body>
+    <p class="red">
+        体验CSS
+    </p>
+    <div>默认文字大小</div>
+--------------------------------
+p{
+        font-style: italic;
+      }
+      div{
+        font-style: normal;
+      }
+------------------------------------
+ p{
+        /* line-height: 50px; */
+        line-height: 3;
+      }
+--------------------------------------
+</body>
+</html>
+
+
+
+————————————————————————————————————————————————————————————————————————————————
+id选择器
+同一个网页只能使用一个名
+#+定义{
+属性：选择}
+
+统配符选择器
+将所有标签一致化
+用在开发初期格式化标签
+
+
+画盒子
+定义形式：.名称{
+height：数据；
+widt：数据；
+background-color：背景颜色
+<标签 class=“名称”>
+
+文字属性
+字体大小：font-size
+p{
+font-size：30px （必须有单位否则不生效）
+}
+
+
+字体粗细
+font-weight
+属性值 
+数字：正常（400） 加粗（700）
+
+
+字体样式
+font-style
+正常：normal
+倾斜：italic
+
+行高
+line-height
+属性值：数字+px 数字
